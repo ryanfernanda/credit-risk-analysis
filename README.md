@@ -10,10 +10,6 @@
 
 This project focuses on predicting credit risk using a real-world dataset consisting of 45,000 loan applications. The classification task aims to determine whether an applicant is likely to default on a loan (binary target: `loan_status`). The dataset is highly imbalanced (35,000 True vs. 10,000 False), so different sampling strategies were applied to improve predictive performance.
 
-<div align="center">
-  <img src="/documentation/F1-Score%20Comparison.png" alt="F1-Score Comparison" width="600"/>
-</div>
-
 ## Purpose
 
 The goal is to build reliable machine learning models for binary classification, compare their performance on various data balancing techniques, and determine which model performs best under different conditions.
@@ -69,6 +65,10 @@ credit-risk-analysis/
 5. **Evaluation**: Compared models using Accuracy, Precision, Recall, F1 Score, and ROC AUC.
 
 ## Key Results
+
+<div align="center">
+  <img src="/documentation/F1-Score%20Comparison.png" alt="F1-Score Comparison" width="600"/>
+</div>
 
 - **Best Model**: XGBoost on undersampled data  
   - F1 Score: **0.8492**
