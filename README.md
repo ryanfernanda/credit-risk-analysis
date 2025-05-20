@@ -10,6 +10,8 @@
 
 This project focuses on predicting credit risk using a real-world dataset consisting of 45,000 loan applications. The classification task aims to determine whether an applicant is likely to default on a loan (binary target: `loan_status`). The dataset is highly imbalanced (35,000 True vs. 10,000 False), so different sampling strategies were applied to improve predictive performance.
 
+![F1-Score Comparison](F1-Score%20Comparison.png)
+
 ## Purpose
 
 The goal is to build reliable machine learning models for binary classification, compare their performance on various data balancing techniques, and determine which model performs best under different conditions.
@@ -102,6 +104,8 @@ jupyter notebook
 ## Results
 
 All model results are saved in `/Evaluation.ipynb`. Visualizations, confusion matrices, and model comparations are included in the notebooks.
+
+![Confusion Matrix Comparison](Confusion%20Matrix%20Comparison.png)
 
 ## Future Work
 
