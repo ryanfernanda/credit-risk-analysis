@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project focuses on predicting credit risk using a real-world dataset consisting of 45,000 loan applications. The classification task aims to determine whether an applicant is likely to default on a loan (binary target: `loan_status`). The dataset is highly imbalanced (35,000 True vs. 10,000 False), so different sampling strategies were applied to improve predictive performance.
+This project focuses on predicting credit risk using a dataset consisting of 45,000 loan applications. The classification task aims to determine whether an applicant is likely to default on a loan (binary target: `loan_status`). The dataset is highly imbalanced (35,000 True vs. 10,000 False), so different sampling strategies were applied to improve predictive performance.
 
 ## Purpose
 
